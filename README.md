@@ -1,10 +1,12 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome,
+Welcome to Project 1,
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This is my idea for a website, to create a local news and events forum that registered users can upload information to, specific to my home county of Leitrim, Ireland.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+To start with I have created a basic index.html file which will serve as the home page of the website, I intend to add a news file, an events file and a registration file. The code I intend to use in constructing the website will be based on the lessons learned in the 5 Day Coding Challenge and Code Institute LMS.
+
+The county colours of Leitrim are Green and Gold, I intend to implement these colours in the website to resonate with local users. I experimented with varying font types before selecting Palatino Linotype. I intend to upload images of locations in Leitrim which I have taken myself, most are low resolution taken with mobile phones so if not suitable for larger screens I will try to rescale so quality is not sacrificed. 
 
 ## Codeanywhere Reminders
 
