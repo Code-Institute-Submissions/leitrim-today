@@ -4,6 +4,15 @@ body {
 	background-color: rgb(3, 77, 3);
 }
 
+.fixed-top {
+  height: 10%;
+  width: 100%;
+  opacity: 0.5;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 h1 {
   background-color: rgb(3, 77, 3);
   color: gold;
@@ -17,6 +26,7 @@ a {
   text-decoration: none;
   border-style: outset;
 }
+
 .float-left {
   width: 50%;
   float: left;
@@ -31,3 +41,11 @@ p {
   font-style: "Times New Roman";
   color: white;
 }
+
+img {
+  border: 2px solid black;
+  max-width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
