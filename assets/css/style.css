@@ -17,8 +17,17 @@ a {
   text-decoration: none;
   border-style: outset;
 }
+.float-left {
+  width: 50%;
+  float: left;
+}
+
+.float-right {
+  width: 50%;
+  float: right;
+}
 
 p {
-  background-color: yellow;
-  color: rgb(3, 77, 3);
+  font-style: "Times New Roman";
+  color: white;
 }
