@@ -1,13 +1,14 @@
 body {
 	font-family: 'palatino linotype', Verdana, sans-serif;
-	margin: 0;
-	background-color: rgb(3, 77, 3);
+	margin: 0px;
+  padding: 0px;
+	background-color: whitesmoke;
+  
 }
 
 .fixed-top {
-  height: 10%;
+  height: 5%;
   width: 100%;
-  opacity: 0.5;
   position: fixed;
   top: 0;
   left: 0;
@@ -17,14 +18,20 @@ h1 {
   background-color: rgb(3, 77, 3);
   color: gold;
   text-align: center;
-  border-style: outset;
+  margin: 0px;
+  padding: 0px;
 }
 
 a {
   background-color: rgb(3, 77, 3);
   color: white;
   text-decoration: none;
-  border-style: outset;
+  font-size: 60%;
+  margin: 1rem;
+}
+
+a:hover {
+  color: red;
 }
 
 .float-left {
@@ -39,7 +46,7 @@ a {
 
 p {
   font-style: "Times New Roman";
-  color: white;
+  color: rgb(3, 77, 3);
 }
 
 img {
@@ -48,4 +55,5 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 5px;
  }
