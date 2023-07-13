@@ -60,3 +60,19 @@ img {
  div > h2 {
   margin-top:7%;
  }
+
+ .fixed-bottom {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+ }
+ 
+ footer {
+	  background-color: rgb(3, 77, 3);
+	  padding: 1em;
+	  text-align: center;
+    width: 98%;
+    height: 3%;
+ }
+
+ 
