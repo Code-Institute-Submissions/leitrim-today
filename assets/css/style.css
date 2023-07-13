@@ -1,7 +1,6 @@
 body {
 	font-family: 'palatino linotype', Verdana, sans-serif;
-	margin-left: 3vw;
-  padding-top: 6vh;
+	padding-top: 6vh;
 	background-color: whitesmoke;
 }
 
@@ -42,19 +41,20 @@ a:hover {
 }
 
 .float-left {
-  width: 50%;
+  width: 49%;
   float: left;
 }
 
 .float-right {
-  width: 50%;
+  width: 49%;
   float: right;
 }
 
 p {
   font-style: "Times New Roman";
   color: rgb(3, 77, 3);
-  font-size: 1.25rem;
+  font-size: 1.1rem;
+  margin-left: 3vw;
 }
 
 ol {
