@@ -1,6 +1,7 @@
 # Leitrim Today
-(assets/images/_iPhone-X_portrait_real-mobile.jpg)
+
 Welcome to Project 1,
+![Desktop Screenshot](https://github.com/Shea-Kelly/leitrim-today/assets/136702564/75143236-10ed-4cc1-874d-e5c3654c56ea)
 
 This is my idea for a website, to create a local news and events forum that registered users can upload information to, specific to my home county of Leitrim, Ireland.
 
