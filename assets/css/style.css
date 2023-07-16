@@ -76,7 +76,8 @@ ol {
 }
 /*set unorganised list to match style of rest of document*/
 ul{
-  color: rgb(3, 77, 3); 
+  color: rgb(3, 77, 3);
+  list-style-type:none;
 }
 /*set border and style rules for images*/
 img {
