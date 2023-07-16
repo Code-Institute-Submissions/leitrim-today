@@ -29,3 +29,8 @@ Problems encountered during development included:
 Time pressure led to a refinement of the original concept so that maximum effect could be achieved in the time remaining.
 
 Nearing completion of the project I utilised the [W3 HTML Validator and W3 CSS Validator](https://www.w3.org/developers/tools/) to check and correct further errors in my code.
+
+I tested the responsivemess of my website using [Browserstack](https://www.browserstack.com/responsive)
+![_iPad-Pro-12 9-2018_portrait_real-mobile](https://github.com/Shea-Kelly/leitrim-today/assets/136702564/05d1583c-c430-4ec4-9581-8cf563ab26b9)
+
+![_iPhone-X_portrait_real-mobile](https://github.com/Shea-Kelly/leitrim-today/assets/136702564/ada98e93-8c34-461a-9143-710c7249a6d8)
