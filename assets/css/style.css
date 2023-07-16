@@ -1,13 +1,14 @@
+/*Set size of header*/
 header{
   width: 98%;
 }
-
+/*set style of body*/
 body {
 	font-family: 'palatino linotype', Verdana, sans-serif;
 	padding-top: 8vh;
 	background-color: whitesmoke;
 }
-
+/*fix header to top of document*/
 .fixed-top {
   height: 3vh;
   width: 100%;
@@ -15,7 +16,7 @@ body {
   top: 0;
   left: 0;
 }
-
+/*set style of h1 element*/
 h1 {
   background-color: rgb(3, 77, 3);
   color: gold;
@@ -23,15 +24,15 @@ h1 {
   margin: 0px;
   padding: 0px;
 }
-
+/*style h2 element*/
 h2 {
   color: rgb(3, 77, 3);
 }
-
+/*style h3 element*/
 h3 {
   color: rgb(3, 77, 3);
 }
-
+/*style nav element*/
 nav {
   background-color: rgb(3, 77, 3);
   color: gold;
@@ -39,7 +40,7 @@ nav {
   margin: 0px;
   padding: 0px;
 }
-
+/*style links on document*/
 a {
   background-color: rgb(3, 77, 3);
   color: gold;
@@ -47,36 +48,36 @@ a {
   font-size: 1rem;
   margin: 1rem;
 }
-
+/*change colour of link when mouse or cursor moves over it*/
 a:hover {
   color: red;
 }
-
+/*float content to the left of page, width prevents overlapping*/
 .float-left {
   width: 49%;
   float: left;
 }
-
+/*float content to right of page, width prevents overlapping*/
 .float-right {
   width: 49%;
   float: right;
 }
-
+/*style paragraphs*/
 p {
   color: rgb(3, 77, 3);
   font-size: 1.1rem;
   margin-left: 3vw;
 }
-
+/*set organised list to match style of rest of document*/
 ol {
   color: rgb(3, 77, 3);
   border: solid 2px rgb(3, 77, 3);
 }
-
+/*set unorganised list to match style of rest of document*/
 ul{
   color: rgb(3, 77, 3); 
 }
-
+/*set border and style rules for images*/
 img {
   border: 2px solid rgb(3, 77, 3);
   max-width: 98%;
@@ -85,7 +86,7 @@ img {
   margin-right: auto;
   margin-top: 5px;
  }
-
+/*set smaller images to grow to size of screen on mouse over*/
  img:hover {
   float: none;
   width: 98%;
@@ -113,16 +114,12 @@ img {
     right: 0;
     overflow: hidden;
 	}
-
-  a {
-    border-style: ridge; 
-    }
-  }
   
   nav {
     background-color: rgb(3, 77, 3);
     color: gold;
     text-align: center;
+    font-size: smaller;
     margin: 0px;
     padding: 0px;
   }
