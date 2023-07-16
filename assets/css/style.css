@@ -1,3 +1,7 @@
+header{
+  width: 98%;
+}
+
 body {
 	font-family: 'palatino linotype', Verdana, sans-serif;
 	padding-top: 8vh;
@@ -28,11 +32,19 @@ h3 {
   color: rgb(3, 77, 3);
 }
 
+nav {
+  background-color: rgb(3, 77, 3);
+  color: gold;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
 a {
   background-color: rgb(3, 77, 3);
   color: gold;
   text-decoration: none;
-  font-size: 50%;
+  font-size: 1rem;
   margin: 1rem;
 }
 
@@ -51,7 +63,6 @@ a:hover {
 }
 
 p {
-  font-style: "Times New Roman";
   color: rgb(3, 77, 3);
   font-size: 1.1rem;
   margin-left: 3vw;
@@ -60,6 +71,10 @@ p {
 ol {
   color: rgb(3, 77, 3);
   border: solid 2px rgb(3, 77, 3);
+}
+
+ul{
+  color: rgb(3, 77, 3); 
 }
 
 img {
@@ -71,8 +86,9 @@ img {
   margin-top: 5px;
  }
 
- article > h2 {
-  margin-top:7%;
+ img:hover {
+  float: none;
+  width: 98%;
  }
 
  .fixed-bottom {
@@ -86,12 +102,31 @@ img {
 	  padding: 1em;
 	  text-align: center;
     width: 98%;
-    height: 3%;
+    height: 3vh;
     color: gold;
  }
 
- footer > a {
-  font-size: 1rem;
- }
+ @media screen and (max-width: 600px) {
+	.fixed-bottom {
+		position: relative;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+	}
+
+  a {
+    border-style: ridge; 
+    }
+  }
+  
+  nav {
+    background-color: rgb(3, 77, 3);
+    color: gold;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
+		
+}
 
  
