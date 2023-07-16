@@ -86,11 +86,6 @@ img {
   margin-right: auto;
   margin-top: 5px;
  }
-/*set smaller images to grow to size of screen on mouse over*/
- img:hover {
-  float: none;
-  width: 98%;
- }
 
  .fixed-bottom {
   position: fixed;
