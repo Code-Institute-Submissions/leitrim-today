@@ -1,41 +1,25 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Leitrim Today
 
 Welcome to Project 1,
 
 This is my idea for a website, to create a local news and events forum that registered users can upload information to, specific to my home county of Leitrim, Ireland.
 
-To start with I have created a basic index.html file which will serve as the home page of the website, I intend to add a news file, an events file and a registration file. The code I intend to use in constructing the website will be based on the lessons learned in the 5 Day Coding Challenge and Code Institute LMS.
+To start with I have created a basic index.html file which will serve as the home page of the website, I intended to add a news file, an events file and a registration file. The code I intend to use in constructing the website will be based on the lessons learned in the 5 Day Coding Challenge and Code Institute LMS. Following delays experienced I agreed with a recommendtion to merge the pages into a single document separated into sections.
 
-The county colours of Leitrim are Green and Gold, I intend to implement these colours in the website to resonate with local users. I experimented with varying font types before selecting Palatino Linotype. I intend to upload images of locations in Leitrim which I have taken myself, most are low resolution taken with mobile phones so if not suitable for larger screens I will try to rescale so quality is not sacrificed. 
+The county colours of Leitrim are Green and Gold, I intend to implement these colours in the website to resonate with local users. Following experimentation I elected to use a darker shade of green than would be usual for optimum contrast and a better visual impact. I experimented with varying font types before selecting Palatino Linotype. I intend to upload images of locations in Leitrim which I have taken myself, most are low resolution taken with mobile phones so if not suitable for larger screens I will try to rescale so quality is not sacrificed. 
 
-## Codeanywhere Reminders
+## Strategy
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+Following my initial consultation with my mentor I formulated a wireframe using Balsamiq Wireframes to create a visual reference for how I wanted the webpage to appear. The initial concept was a welcome page with navigable links to other connected pages, including news, events and registration. This was later revised to include those sections in an overall HTML document. I decided to used fixed positioning for the header and footer, the header including the navigable links and the footer containing copyright information and links to social media. I elected to use photographs, taken on my phone, on the website for simplicity. I used my own knowledge of the people and nature of my home county to inform the language and tone of the site. The information contained in the sections are from my own knowledge of the relevant areas, biased towards North County Leitrim from my own lived experience.
 
-`python3 -m http.server`
+## Implementation
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+The concept is simple, using HTML and CSS to produce a functional and easily navigable website, that should be responsive to various screen sizes while retaining the intented appearance. It could be developed further to include animations of menus and site features, as well as hosting short video clips of related content.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+I began by using the examples from the Coder Coffeehouse and How to Make a Cup of Tea projects to build the basic HTML document, including meta tags, a header, sections, articles, images, ordered and unordered lists, and a footer. I then used CSS to introduce styling, changing fonts and colours, spacing and positioning to refine the presentation of the final webpage. The majority of the code used is from [Code Institute](https://learn.codeinstitute.net/dashboard)'s lessons, with some help from [W3 Schools](https://www.w3schools.com/).
 
-`http_server`
+## Issues Encountered During Development
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Problems encountered during development included issues with placement of images alongside text, text from the body being obscured behind the header and footer and having sufficient content to make navigation between the sections necessary. Time pressure led to a refinement of the original concept so that maximum effect could be achieved in the time remaining.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+Nearing completion of the project I utilised the [W3 HTML Validator and W3 CSS Validator](https://www.w3.org/developers/tools/) to check and correct further errors in my code.
