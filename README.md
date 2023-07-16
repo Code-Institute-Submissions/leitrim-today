@@ -1,5 +1,5 @@
 # Leitrim Today
-
+(../assets/images/desktopscreenshot.png)
 Welcome to Project 1,
 
 This is my idea for a website, to create a local news and events forum that registered users can upload information to, specific to my home county of Leitrim, Ireland.
