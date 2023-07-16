@@ -1,6 +1,6 @@
 body {
 	font-family: 'palatino linotype', Verdana, sans-serif;
-	padding-top: 6vh;
+	padding-top: 8vh;
 	background-color: whitesmoke;
 }
 
@@ -90,8 +90,8 @@ img {
     color: gold;
  }
 
- footer > p {
-  color: gold;
+ footer > a {
+  font-size: 1rem;
  }
 
  
