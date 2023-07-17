@@ -3,7 +3,7 @@
 Welcome to Project 1,
 ![Desktop Screenshot](https://github.com/Shea-Kelly/leitrim-today/assets/136702564/75143236-10ed-4cc1-874d-e5c3654c56ea)
 
-This is my idea for a website, to create a local news and events forum that registered users can upload information to, specific to my home county of Leitrim, Ireland.
+This is my idea for a website, to create a local news and events forum that registered users can upload information to, specific to my home county of Leitrim, Ireland. The screenshot above demonstrates how the site would appear on a desktop computer screen/laptop screen.
 
 To start with I have created a basic index.html file which will serve as the home page of the website, I intended to add a news file, an events file and a registration file. The code I intend to use in constructing the website will be based on the lessons learned in the 5 Day Coding Challenge and Code Institute LMS. Following delays experienced I agreed with a recommendation to merge the pages into a single document, separated into sections.
 
@@ -31,6 +31,8 @@ Time pressure led to a refinement of the original concept so that maximum effect
 Nearing completion of the project I utilised the [W3 HTML Validator and W3 CSS Validator](https://www.w3.org/developers/tools/) to check and correct further errors in my code.
 
 I tested the responsivemess of my website using [Browserstack](https://www.browserstack.com/responsive)
+This is a screenshot of how my project would look on an iPad Pro
 ![_iPad-Pro-12 9-2018_portrait_real-mobile](https://github.com/Shea-Kelly/leitrim-today/assets/136702564/05d1583c-c430-4ec4-9581-8cf563ab26b9)
 
+This is a screenshot of how my project would appear on an iPhone X
 ![_iPhone-X_portrait_real-mobile](https://github.com/Shea-Kelly/leitrim-today/assets/136702564/ada98e93-8c34-461a-9143-710c7249a6d8)
