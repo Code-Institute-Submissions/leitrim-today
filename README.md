@@ -19,6 +19,10 @@ The concept is simple, using HTML and CSS to produce a functional and easily nav
 
 I began by using the examples from the [Coder Coffeehouse](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRR101+2021_T1/courseware/b4e5b2c91d0a4ee3bb24fac71811b23f/fb53b5df2fbd47f183297ff8c93040c1/) and [How to Make a Cup of Tea](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+AACC+2021/courseware/7dcccde95af649d0a9dcd8a1aaad1e96/d1cbc2d2b2b54a24b18923471613764a/) projects to build the basic HTML document, including meta tags, a header, sections, articles, images, ordered and unordered lists, and a footer. I then used CSS to introduce styling, changing fonts and colours, spacing and positioning to refine the presentation of the final webpage. The majority of the code used is from [Code Institute](https://learn.codeinstitute.net/dashboard)'s lessons, with some help from [W3 Schools](https://www.w3schools.com/).
 
+## User Experience
+
+A user accessing the webpage is met with a title page including a header and hero image. As the user scrolls down the header and footer remain positioned at the top and bottom of the page. The header includes navigable links to the News, Events and Register sections of the webpage. The footer includes copyright information and navigable links to Facebook, Instagram and Twitter. The webpage included fictional news articles and events for the purpose of demoonstration, the locations referred to are real and will be familiar to users from the county of Leitrim, the intended audience. The register section simply requires a name and email address, with an option to provide information that could be added to the webpage or to provide feedback. For the purpose of demonstration of concept a link to Code Institute from the Coder Coffehouse project is utilised to submit the data entered. There is also a reset button to reset the form.
+
 ## Issues Encountered During Development
 
 Problems encountered during development included: 
