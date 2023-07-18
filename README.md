@@ -32,12 +32,12 @@ I began by using the examples from the [Coder Coffeehouse](https://learn.codeins
 
 ## Issues Encountered During Development
 
-Problems encountered during development included: 
-1/being unable to access Code Anywhere and getting no response from their support, requiring a transfer to GitPod,
-2/issues with placement of images alongside text, overcome with the use of float:left and float:right
-3/text and images from the body being obscured behind the header and footer, margin-top and margin bottom were utilised,
-4/making the webpage responsive to all screen sizes and,
-5/having sufficient content to make navigation between the sections necessary. 
+Problems encountered during development included:  
+1. being unable to access Code Anywhere and getting no response from their support, requiring a transfer to GitPod,  
+2. issues with placement of images alongside text, overcome with the use of float:left and float:right,  
+3. text and images from the body being obscured behind the header and footer, margin-top and margin bottom were utilised,  
+4. making the webpage responsive to all screen sizes and,  
+5. having sufficient content to make navigation between the sections necessary.  
 
 As well as issues experienced using Code Anywhere and migrating to using GitPod as an alternative, time pressure led to a refinement of the original concept so that maximum effect could be achieved in the time remaining.
 
