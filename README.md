@@ -22,13 +22,13 @@ I began by using the examples from the [Coder Coffeehouse](https://learn.codeins
 
 ## User Experience
 
-*A user accessing the webpage is met with a title page including a header and main image.  
-*As the user scrolls down the header and footer remain positioned at the top and bottom of the page.  
-*The header includes navigable links to the News, Events and Register sections of the webpage.  
-*The footer includes copyright information and navigable links to Facebook, Instagram and Twitter.  
-*The webpage includes fictional news articles and events for the purpose of demoonstration, the locations referred to are real and will be familiar to users from the county of Leitrim, the intended audience.  
-*The register section simply requires a name and email address, with an option to provide information that could be added to the webpage or to provide feedback, I permitted users to resize the feedback box to a size of their preference.  
-*For the purpose of demonstration of concept a link to Code Institute from the Coder Coffehouse project is utilised to submit the data entered. There is also a reset button to reset the form.  
+* A user accessing the webpage is met with a title page including a header and main image.  
+* As the user scrolls down the header and footer remain positioned at the top and bottom of the page.  
+* The header includes navigable links to the News, Events and Register sections of the webpage.  
+* The footer includes copyright information and navigable links to Facebook, Instagram and Twitter.  
+* The webpage includes fictional news articles and events for the purpose of demoonstration, the locations referred to are real and will be familiar to users from the county of Leitrim, the intended audience.  
+* The register section simply requires a name and email address, with an option to provide information that could be added to the webpage or to provide feedback, I permitted users to resize the feedback box to a size of their preference.  
+* For the purpose of demonstration of concept a link to Code Institute from the Coder Coffehouse project is utilised to submit the data entered. There is also a reset button to reset the form.  
 
 ## Issues Encountered During Development
 
