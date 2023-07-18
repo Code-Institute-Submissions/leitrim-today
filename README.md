@@ -41,10 +41,11 @@ Problems encountered during development included:
 
 As well as issues experienced using Code Anywhere and migrating to using GitPod as an alternative, time pressure led to a refinement of the original concept so that maximum effect could be achieved in the time remaining.
 
-Nearing completion of the project I utilised the [W3 HTML Validator and W3 CSS Validator](https://www.w3.org/developers/tools/) to check and correct further errors in my code. The <section>'s I implemented for navigation purposes required h2's, a simple case of cutting the h2 from an <article> and pasting it above the <article> inside the <section>.
+Nearing completion of the project I utilised the [W3 HTML Validator and W3 CSS Validator](https://www.w3.org/developers/tools/) to check and correct further errors in my code.  
+The '<section>''s I implemented for navigation purposes required h2's, a simple case of cutting the h2 from an '<article>' and pasting it above the '<article>' inside the '<section>'.  
+  
+I tested the responsivemess of my website using [Am I Responsive?](http://ami.responsivedesign.is/) and also implemented tests using Lighthouse, results shown in the image below:  
 
-I tested the responsivemess of my website using [Am I Responsive?](http://ami.responsivedesign.is/) and also implemented tests using Lighthouse, results shown in the image below:
+![lighthousereport](https://github.com/Shea-Kelly/leitrim-today/assets/136702564/3eceb863-a693-4777-ad9e-512ef553c100)  
 
-![lighthousereport](https://github.com/Shea-Kelly/leitrim-today/assets/136702564/3eceb863-a693-4777-ad9e-512ef553c100)
-
-
+The results of Lighthouse reflect compression issues with the images I implemented in the website design and how images were coded into the html, I regretfully had insufficient time to correctly address these issues before submitting the project.
