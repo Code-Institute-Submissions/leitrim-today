@@ -6,6 +6,7 @@ Welcome to Project 1,
 This is my idea for a website, to create a local news and events forum that registered users can upload information to, specific to my home county of Leitrim, Ireland. 
 
 To start with I have created a basic index.html file which will serve as the home page of the website, I intended to add a news file, an events file and a registration file. The code I intend to use in constructing the website will be based on the lessons learned in the 5 Day Coding Challenge and Code Institute LMS. Following delays experienced I agreed with a recommendation from my tutor to merge the pages into a single document, separated into sections.
+![responsivenesstest](https://github.com/Shea-Kelly/leitrim-today/assets/136702564/6783490e-dceb-4090-80a3-1ad830399fe0)
 
 The county colours of Leitrim are Green and Gold, I intend to implement these colours in the website to resonate with local users. Following experimentation I elected to use a darker shade of green than would be usual for optimum contrast and a better visual impact. I experimented with varying font types before selecting Palatino Linotype. I intend to upload images of locations in Leitrim which I have taken myself, most are low resolution taken with mobile phones so if not suitable for larger screens I will try to rescale so quality is not sacrificed. 
 
