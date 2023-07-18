@@ -24,6 +24,15 @@ h1 {
   margin: 0px;
   padding: 0px;
 }
+/*set style for main image*/
+.main-image {
+  width: 100%;
+  display: block;
+  border: none;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
 /*style h2 element*/
 h2 {
   background-color: rgb(3, 77, 3);
@@ -81,6 +90,7 @@ ul{
   color: rgb(3, 77, 3);
   list-style-type:none;
 }
+
 /*set border and style rules for images*/
 img {
   border: 2px solid rgb(3, 77, 3);
@@ -90,19 +100,20 @@ img {
   margin-right: auto;
   margin-top: 5px;
  }
-
+/*set style of fieldset*/
  fieldset {
 	border: none;
 	margin-top: 10px;
   color: rgb(3, 77, 3);
 }
-
+/*style legend*/
 legend {
 	font-size: large;
 	font-weight: 600;
 	margin: 20px 0 10px 0;
 }
 
+/*style submit button*/
 input[type=submit] {
 	margin-top: 10px;
 	margin-left: 1rem;
@@ -112,7 +123,7 @@ input[type=submit] {
 	border: 1px solid rgb(3, 77, 3);
 	border-radius: 5px;
 }
-
+/*style reset button*/
 input[type=reset] {
 	margin-top: 10px;
 	margin-left: 1rem;
@@ -122,7 +133,7 @@ input[type=reset] {
 	border: 1px solid rgb(3, 77, 3);
 	border-radius: 5px;
 }
-	
+/*set rules for form*/	
 form {
 	width: 75vw;
 	padding: 0;
@@ -163,7 +174,7 @@ form {
     margin: 0px;
     padding: 0px;
   }
-		
+
 }
 
  
