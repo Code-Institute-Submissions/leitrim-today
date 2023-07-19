@@ -25,14 +25,15 @@ nav li {
 }
 /*show line under link when mouse or cursor moves over it, based on Love Running project*/
 nav a:hover {
-  border-bottom: 2px solid rgb(3, 77, 3);
+  border-bottom: 2px solid gold;
 }
 /*Set size of header*/
 header {
-  height: 75px;
+  height: 5vw;
   width: 100%;
-  background-color: whitesmoke;
-}
+  background-color: rgb(3, 77, 3);
+  z-index: 3;
+ }
 /*fix header to top of document*/
 .fixed-top {
   position: fixed;
@@ -41,7 +42,7 @@ header {
 }
 /*set style of h1 element, spacing, size and height based on Love Running project styling*/
 h1 {
-  color: rgb(3, 77, 3);
+  color: gold;
   float: left;
   letter-spacing: 2px;
   font-size: 300%;
@@ -49,20 +50,23 @@ h1 {
 }
 /*show line under link when mouse or cursor moves over it, based on Love Running project*/
 h1:hover {
-  border-bottom: 2px solid rgb(3, 77, 3);
+  border-bottom: 2px solid gold;
 }
+/*set main image, based on hero image from Love Running*/
 #zoom-in {
   width: 100%;
-  height: 600px;
+  height: 800px;
   overflow: hidden;
   margin-top: 75px;
+  z-index: 1;
 }
 /*set style for main image*/
 #main-image {
   width: 100%;
-  height: 600px;
-  background-image: url("/assets/images/loughallen.jpg");
-
+  height: 800px;
+  background-image: url("/assets/images/sliabhaniarainn.jpg");
+  
+  /*animate main image when page loads, as per Love Running project*/
   animation-name: main-zoom;
   animation-duration: 5s;
   animation-fill-mode: forwards;
@@ -79,7 +83,11 @@ h1:hover {
 /*style h2 element*/
 h2 {
   background-color: rgb(3, 77, 3);
-  color: gold;
+  color: whitesmoke;
+}
+/*create space above h2 to not be behind fixed header when link clicked*/
+#spacer {
+  margin-top: 5vh;
 }
 /*style h3 element*/
 h3 {
@@ -87,7 +95,7 @@ h3 {
 }
 /*style links on document*/
 a {
-  color: inherit;
+  color: gold;
   text-decoration: none;
   font-size: 1rem;
   margin: 1rem;
@@ -106,7 +114,6 @@ a {
 p {
   color: rgb(3, 77, 3);
   font-size: 1.15rem;
-  margin-left: 3vw;
 }
 /*set organised list to match style of rest of document*/
 ol {
