@@ -101,20 +101,34 @@ h1:hover {
   width: 33%;
   float: left;
   padding-top: 3rem;
-  background-color: black;
 }
 
 #right-most {
   width: 33%;
   float: right;
   padding-top: 3rem;
-  background-color: red;
 }
 
 #centremost {
   width: 33%;
   margin: 0 auto;
   background-color: yellow;
+}
+
+.left-most-heading {
+  width: 60%;
+  float: right;
+  line-height: 2rem;
+  clear: both;
+  margin-bottom: 5rem;
+}
+
+.right-most-heading {
+  width: 60%;
+  float: left;
+  line-height: 2rem;
+  clear: both;
+  margin-bottom: 5rem;
 }
 
 /*style h2 element*/
