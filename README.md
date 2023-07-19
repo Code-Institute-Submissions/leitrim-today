@@ -45,10 +45,12 @@ As well as issues experienced using Code Anywhere and migrating to using GitPod 
 Nearing completion of the project I utilised the [W3 HTML Validator and W3 CSS Validator](https://www.w3.org/developers/tools/) to check and correct further errors in my code.  
 The section's I implemented for navigation purposes required h2's, a simple case of cutting the h2 from an article and pasting it above the article inside the relevant section.  
   
-I tested the responsivemess of my website using [Am I Responsive?](http://ami.responsivedesign.is/) and also implemented tests using Lighthouse, the results of which are shown in the image below:  
+I tested the responsivemess of my website using [Am I Responsive?](http://ami.responsivedesign.is/), the results of which are seen in the main image above. I elected to remove the fixed footer on the most small screens to allow more screen for content at those sizes.  
+  
+I also implemented tests using Lighthouse, the results of which are shown in the image below:  
 
 ![lighthousereport](https://github.com/Shea-Kelly/leitrim-today/assets/136702564/3eceb863-a693-4777-ad9e-512ef553c100)  
-
+  
 The results of Lighthouse reflect compression issues with the images I implemented in the website design and how images were coded into the html, I regretfully had insufficient time to correctly address these issues before submitting the project.  
   
-Given further development I believe the website could be further refined and modernised from it's current iteration.
+Given further development I believe the website could be further refined and modernised from it's current iteration. I would better utilise the larger images, reposition text content in relation to the images, use animation effects to make the header disappear as a user scrolls down and reappear as a user scrolls up, and set the navigation in the header to minimise to a burger logo on smaller screens which would expand the navigation window to one side when touched or clicked.
