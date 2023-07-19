@@ -65,7 +65,7 @@ h1:hover {
 /*set main image, based on hero image from Love Running*/
 #zoom-in {
   width: 100%;
-  height: 800px;
+  height: 100vh;
   overflow: hidden;
   margin-top: 75px;
   z-index: 1;
@@ -74,7 +74,7 @@ h1:hover {
 /*set style for main image*/
 #main-image {
   width: 100%;
-  height: 800px;
+  height: 100vh;
   background-image: url("/assets/images/loughallen.jpg");
   
 /*animate main image when page loads, as per Love Running project*/
@@ -90,6 +90,31 @@ h1:hover {
   to{
     transform: scale(1.1);
   }
+}
+
+/*style about us section, inspired by Love Running project*/
+#about-us {
+  height: 100vh;
+}
+
+#left-most {
+  width: 33%;
+  float: left;
+  padding-top: 3rem;
+  background-color: black;
+}
+
+#right-most {
+  width: 33%;
+  float: right;
+  padding-top: 3rem;
+  background-color: red;
+}
+
+#centremost {
+  width: 33%;
+  margin: 0 auto;
+  background-color: yellow;
 }
 
 /*style h2 element*/
