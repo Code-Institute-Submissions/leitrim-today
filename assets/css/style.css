@@ -1,6 +1,13 @@
+/*remove all default padding, margins and borders. From Love Running project*/
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
 /*Set size of header*/
 header{
-  width: 98%;
+  height: 5vh;
+  width: 100%;
 }
 /*set style of body*/
 body {
@@ -10,27 +17,20 @@ body {
 }
 /*fix header to top of document*/
 .fixed-top {
-  height: 3vh;
-  width: 100%;
   position: fixed;
   top: 0;
   left: 0;
 }
 /*set style of h1 element*/
 h1 {
-  background-color: rgb(3, 77, 3);
+  /*background-color: rgb(3, 77, 3);*/
   color: gold;
-  text-align: center;
-  margin: 0px;
-  padding: 0px;
+  text-align: left;
 }
 /*set style for main image*/
 .main-image {
   width: 100%;
   display: block;
-  border: none;
-  margin: 6vh 0 0 0;
-  padding: 0;
 }
 /*style h2 element*/
 h2 {
