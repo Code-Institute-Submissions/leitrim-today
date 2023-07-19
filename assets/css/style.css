@@ -53,7 +53,7 @@ h1:hover {
 /*set style for main image*/
 #main-image {
   height: 600px;
-  width: 100%;
+  width: 100vw;
   background-image: url('assets/images/loughallen.jpg') no-repeat center center;
 }
 /*style h2 element*/
