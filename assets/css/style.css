@@ -38,7 +38,7 @@ header {
   top: 0;
   left: 0;
 }
-/*set style of h1 element, based on Love Running project styling*/
+/*set style of h1 element, spacing, size and height based on Love Running project styling*/
 h1 {
   color: rgb(3, 77, 3);
   float: left;
@@ -51,9 +51,10 @@ h1:hover {
   border-bottom: 2px solid rgb(3, 77, 3);
 }
 /*set style for main image*/
-.main-image {
+#main-image {
+  height: 600px;
   width: 100%;
-  display: block;
+  background-image: url('assets/images/loughallen.jpg') no-repeat center center;
 }
 /*style h2 element*/
 h2 {
@@ -97,7 +98,6 @@ ul{
   color: rgb(3, 77, 3);
   list-style-type:none;
 }
-
 /*set border and style rules for images*/
 img {
   border: 2px solid rgb(3, 77, 3);
