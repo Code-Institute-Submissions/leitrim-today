@@ -4,16 +4,33 @@
   margin: 0;
   border: none;
 }
-/*Set size of header*/
-header{
-  height: 5vh;
-  width: 100%;
-}
 /*set style of body*/
 body {
 	font-family: 'palatino linotype', Verdana, sans-serif;
 	background-color: whitesmoke;
   color: rgb(3, 77, 3);
+}
+/*set nav to float right*/
+nav {
+  float: right;
+}
+/*set nav list items to float left and style. Styling based on Love Running project*/
+nav li {
+  float: left;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  list-style-type: none;
+  margin-right: 20px;
+  line-height: 75px;
+}
+/*show line under link when mouse or cursor moves over it, based on Love Running project*/
+nav a:hover {
+  border-bottom: 2px solid rgb(3, 77, 3);
+}
+/*Set size of header*/
+header {
+  height: 5vh;
+  width: 100%;
 }
 /*fix header to top of document*/
 .fixed-top {
@@ -21,11 +38,17 @@ body {
   top: 0;
   left: 0;
 }
-/*set style of h1 element*/
+/*set style of h1 element, based on Love Running project styling*/
 h1 {
-  /*background-color: rgb(3, 77, 3);*/
-  color: gold;
-  text-align: left;
+  color: rgb(3, 77, 3);
+  float: left;
+  letter-spacing: 2px;
+  font-size: 300%;
+  line-height: 75px;
+}
+/*show line under link when mouse or cursor moves over it, based on Love Running project*/
+h1:hover {
+  border-bottom: 2px solid rgb(3, 77, 3);
 }
 /*set style for main image*/
 .main-image {
@@ -36,40 +59,26 @@ h1 {
 h2 {
   background-color: rgb(3, 77, 3);
   color: gold;
-  margin: 0;
 }
 /*style h3 element*/
 h3 {
   color: rgb(3, 77, 3);
 }
-/*style nav element*/
-nav {
-  background-color: rgb(3, 77, 3);
-  color: gold;
-  text-align: center;
-  margin: 0px;
-  padding: 0px;
-}
 /*style links on document*/
 a {
-  background-color: rgb(3, 77, 3);
-  color: gold;
+  color: inherit;
   text-decoration: none;
   font-size: 1rem;
   margin: 1rem;
 }
-/*change colour of link when mouse or cursor moves over it*/
-a:hover {
-  color: red;
-}
 /*float content to the left of page, width prevents overlapping*/
 .float-left {
-  /*width: 49%;*/
+  width: 49%;
   float: left;
 }
 /*float content to right of page, width prevents overlapping*/
 .float-right {
-  /*width: 49%;*/
+  width: 49%;
   float: right;
 }
 /*style paragraphs*/
@@ -139,22 +148,26 @@ form {
 	margin-bottom: 5vw;
 	background-color: whitesmoke;
 }
-
+/*style footer to same as rest of page*/
+footer {
+	background-color: rgb(3, 77, 3);
+	padding: 1em;
+  text-align: center;
+  width: 98%;
+  height: 3vh;
+  color: gold;
+}
 /*fix footer to bottom of page*/
- .fixed-bottom {
+.fixed-bottom {
   position: fixed;
   bottom: 0;
   right: 0;
- }
- /*style footer to same as rest of page*/
- footer {
-	  background-color: rgb(3, 77, 3);
-	  padding: 1em;
-	  text-align: center;
-    width: 98%;
-    height: 3vh;
-    color: gold;
- }
+}
+/*show line under link when mouse or cursor moves over it, based on Love Running project*/
+footer a:hover {
+  border-bottom: 1px solid gold;
+}
+
 /*set page response to smaller screen size*/
  @media screen and (max-width: 600px) {
 	.fixed-bottom {
