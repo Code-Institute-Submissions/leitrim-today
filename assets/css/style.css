@@ -12,8 +12,8 @@ header{
 /*set style of body*/
 body {
 	font-family: 'palatino linotype', Verdana, sans-serif;
-	padding-top: 8vh;
 	background-color: whitesmoke;
+  color: rgb(3, 77, 3);
 }
 /*fix header to top of document*/
 .fixed-top {
@@ -64,12 +64,12 @@ a:hover {
 }
 /*float content to the left of page, width prevents overlapping*/
 .float-left {
-  width: 49%;
+  /*width: 49%;*/
   float: left;
 }
 /*float content to right of page, width prevents overlapping*/
 .float-right {
-  width: 49%;
+  /*width: 49%;*/
   float: right;
 }
 /*style paragraphs*/
