@@ -32,9 +32,9 @@ nav a:hover {
   border-bottom: 2px solid gold;
 }
 
-/*Set size of header*/
+/*Set size, colour of header, set z-index to prevent disappearing behind image*/
 header {
-  height: 5vw;
+  height: 9vh;
   width: 100%;
   background-color: rgb(3, 77, 3);
   z-index: 3;
@@ -62,7 +62,7 @@ h1:hover {
   border-bottom: 2px solid gold;
 }
 
-/*set main image, based on hero image from Love Running*/
+/*set main image, based on hero image from Love Running, z-index enables header to remain visible*/
 #zoom-in {
   width: 100%;
   height: 100vh;
@@ -93,7 +93,7 @@ h1:hover {
 }
 
 /*style about us section, inspired by Love Running project*/
-#welcome {
+.welcome {
   text-align: center;
   margin: 2rem 0;
   background-color: whitesmoke;
@@ -170,7 +170,7 @@ h2 {
 
 /*create space above h2 to not be behind fixed header when link clicked*/
 #spacer {
-  margin-top: 6vh;
+  padding-top: 10vh; 
 }
 
 /*style h3 element*/
@@ -203,7 +203,7 @@ a {
 p {
   color: rgb(3, 77, 3);
   font-size: 1.15rem;
-  margin: 1rem;
+  padding: 1rem;
 }
 
 /*set organised list to match style of rest of document*/
@@ -229,6 +229,14 @@ article img {
   margin-left: auto;
   margin-right: auto;
   margin-top: 5px;
+ }
+/*match sizes of lake image with stream image*/
+ .lake {
+  width: 66%;
+ }
+
+ .stream {
+  width: 66%;
  }
 
  /*set style of fieldset, styled after Coder Coffehouse project*/
@@ -329,22 +337,101 @@ footer a:hover {
   border-bottom: 1px solid gold;
 }
 
-/*set page response to smaller screen size*/
- @media screen and (max-width: 600px) {
-	.fixed-bottom {
-		position: relative;
-    bottom: 0;
-    right: 0;
-    overflow: hidden;
-	}
+/*set page response to screen size under 1200px*/
+ @media screen and (max-width: 1200px) {
+	#about-us {
+    width: 65%;
+    height: 1200px;
+    margin: 0 auto;
+  }
   
-  nav {
-    background-color: rgb(3, 77, 3);
+  #welcome {
+    padding: 30px 0;
+    margin: 0;
+  }
+
+  #left-most, #right-most {
+    width: 100%;
+    float: left;
+    padding: 0;
+  }
+
+  #centremost {
+    clear: both;
+    width: 100%;
+    float: left;
+    padding: 0;
+  }
+
+  header {
+    height: 10vh;
+  }
+
+  #spacer {
+    padding-top: 20vh; 
+  }
+
+  h1 {
     color: gold;
+    float: left;
+    letter-spacing: 1px;
+    font-size: 250%;
+    line-height: 75px;
+    margin-left: 10px;
+  }
+
+  nav a {
+    background-color: rgb(3, 77, 3);
+  }
+
+  nav li {
+    float: left;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    list-style-type: none;
+    margin-right: 10px;
+    line-height: 10vh;
+  }
+
+}
+
+/*set media rsponse to screen size below 950px*/
+@media screen and (max-width: 950px) {
+	
+  nav li {
+    clear: left;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    line-height: 25px;
+  }
+
+  header {
+    height: 20vh;
+  }
+
+  h1 {
+    color: gold;
+    float: left;
+    letter-spacing: 1px;
+    font-size: 200%;
+    line-height:75px;
+    margin-left: 10px;
+  }
+
+  #about-us {
+    height: 1200px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .left-most-heading, .right-most-heading {
+    width: inherit;
+  }
+
+  .left-most-heading h2, .right-most-heading h2 {
+    width: 100%;
     text-align: center;
-    font-size: smaller;
-    margin: 0px;
-    padding: 0px;
   }
 
 }
