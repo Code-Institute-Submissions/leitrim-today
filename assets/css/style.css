@@ -157,7 +157,9 @@ h1:hover {
 }
 
 #circle-background {
-  background: url("/assets/images/waterfall2.jpg");
+  background: url("../images/waterfall2.jpg") no-repeat center center;
+  height: 100%;
+  border-radius: 50%;
 }
 
 /*style h2 element*/
