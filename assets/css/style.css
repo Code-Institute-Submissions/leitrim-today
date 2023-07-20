@@ -291,10 +291,15 @@ input[type=reset] {
 /*set rules for form, styled after Coder Coffehouse project*/	
 form {
 	width: 75vw;
-	padding: 0;
+	padding: 1rem;
 	border-radius: 5px;
 	margin-bottom: 5vw;
 	background-color: whitesmoke;
+}
+/*style fine details*/
+#fine-detail {
+    font-size: smaller;
+    margin-bottom: 8vh;
 }
 
 /*style footer to same as header*/
@@ -305,6 +310,11 @@ footer {
   width: 98%;
   height: 3vh;
   color: gold;
+}
+
+/*change font awesome social media icons in footer white*/
+footer a {
+  color: white;
 }
 
 /*fix footer to bottom of page*/
